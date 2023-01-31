@@ -131,7 +131,7 @@ function commander(cmd){
             loopLines(smile, "", 80);
             break;
         case "skills":
-            loopLines(skills, "", 80);
+            loopLines(skills, "", 150);
             break;        
         // socials
         case "youtube":
