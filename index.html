@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naresh | Terminal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/107427909?v=4">
+</head>
+<body>
+    <div id="terminal">
+        <a id="before"></a>
+    </div>
+    <div id="command" onclick="$('texter').focus();">
+        <textarea 
+            name="" 
+            id="texter" 
+            onkeyup="typeIt(this, event);"
+            onkeydown="typeIt(this, event);" 
+            onkeypress="typeIt(this, event);"
+        ></textarea>
+        <div id="liner">
+            <span id="typer"></span><b class="cursor" id="cursor">█</b>
+        </div>
+    </div>
+
+    <script src="js/caret.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/commands.js"></script>
+</body>
+</html>
