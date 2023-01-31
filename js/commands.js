@@ -6,11 +6,15 @@ var resume = "https://drive.google.com/file/d/1gxXIXafkn4lWm-i08vQzj_0zFwuBt0A2/
 
 whois = [
     "<br>",
-    "Hey, I'm Naresh👋",
-    "I am Final year student at GCOEARA",
-    "I am trying to improve myself in software programming. Coding is a love.🥰",
-    "My Aim: Successful software developer and develop innovative solutions",
-    'Resume        <a href="' + resume + '" target="_blank">Naresh/Resume' + "</a>",
+    'Hey, I\'m <span class="intro">Naresh Choudhary</span>👋',
+    'I am <span class="skill">Final year student</span> pursuing my degree in <span class="intro">Electronics and Telecommunication</span>.',
+    'I have a passion for software development and have been honing my skills as a <span class="intro">Full-Stack developer</span>.',
+    'And I also love playing games💖 and I was a eSport player.',
+    'My expertise includes creating dynamic and responsive web applications using <span class="skill">MongoDB</span>, <span class="skill">Express</span>, <span class="skill">React</span>, and <span class="skill">Node.js</span>.',
+    '<span class="command">My Goal</span>: <span class="intro">To become a highly successful developer in the industry</span>.',
+    'I am also interested in exploring new technologies and am currently learning about <span class="skill">blockchain development</span>.',
+    "<br>",
+    '•Resume        <a href="' + resume + '" target="_blank">Naresh/Resume' + "</a>",
     "<br>"
 ];
 
@@ -27,6 +31,18 @@ social = [
     'GitHub         <a href="' + github + '" target="_blank">github/Naresh Choudhary' + "</a>",
     "<br>"
 ];
+
+skills = [
+    "<br>",
+    '<span class="command">Languages : </span>',
+    "<ul><li>JAVA ♨︎</li><li>Javascript</li><li>Typescript</li><li>Solidity</li><li>Motoko(Internet Computer)</li></ul>",
+    '<span class="command">Frameworks & Library : </span>',
+    "<ul><li>Node.js</li><li>Express.js</li><li>React.js</li><li>jQuery</li></ul>",
+    '<span class="command">Database : </span>',
+    "<ul><li>MongoDB</li><li>MySQL</li><li>PostgreSQL</li></ul>",
+    '<span class="command">Tools : </span>',
+    "<ul><li>Git</li><li>ESLint</li><li>Postman</li><li>Heruko</li><li>Robo 3T</li><li>MacOS</li></ul>",
+]
 
 secret = [
     "<br>",
@@ -51,6 +67,7 @@ projects = [
 help = [
     "<br>",
     '<span class="command">whois</span>          Who is Naresh?',
+    '<span class="command">skills</span>         what skills-set I have?',
     '<span class="command">whoami</span>         Who are you?',
     '<span class="command">video</span>          View YouTube videos',
     '<span class="command">donate</span>         Donation Link',
@@ -61,40 +78,39 @@ help = [
     '<span class="command">help</span>           You obviously already know what this does',
     '<span class="command">clear</span>          Clear terminal',
     '<span class="command">banner</span>         Display the header',
+    '<span class="command">smile</span>          Display the 😁',
     "<br>",
 ]
 
-// banner = [
-//     "                          oooo$$$$$$$$$$$$oooo",
-//     "                      oo$$$$$$$$$$$$$$$$$$$$$$$$o",
-//     "                   oo$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o         o$   $$ o$",
-//     "   o $ oo        o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o       $$ $$ $$o$",
-//     "oo $ $ \"$      o$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$o       $$$o$$o$",
-//     "\"$$$$$$o$     o$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$o    $$$$$$$$",
-//     "  $$$$$$$    $$$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$$$$$$$$$$$$$$",
-//     "  $$$$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$$$$$$  \"\"\"$$$",
-//     "   \"$$$\"\"\"\"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     \"$$$",
-//     "    $$$   o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     \"$$$o",
-//     "   o$$\"   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$       $$$o",
-//     "   $$$    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\" \"$$$$$$ooooo$$$$o",
-//     "  o$$$oooo$$$$$  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$   o$$$$$$$$$$$$$$$$$",
-//     "  $$$$$$$$\"$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     $$$$\"\"\"\"\"\"\"\"",
-//     " \"\"\"\"       $$$$    \"$$$$$$$$$$$$$$$$$$$$$$$$$$$$\"      o$$$",
-//     "            \"$$$o     \"\"\"$$$$$$$$$$$$$$$$$$\"$$\"         $$$",
-//     "              $$$o          \"$$\"\"$$$$$$\"\"\"\"           o$$$",
-//     "               $$$$o                 oo             o$$$\"",
-//     "                \"$$$$o      o$$$$$$o\"$$$$o        o$$$$",
-//     "                  \"$$$$$oo     \"\"$$$$o$$$$$o   o$$$$\"\"  ",
-//     "                     \"\"$$$$$oooo  \"$$$o$$$$$$$$$\"\"\"",
-//     "                        \"\"$$$$$$$oo $$$$$$$$$$       ",
-//     "                                \"\"\"\"$$$$$$$$$$$        ",
-//     "                                    $$$$$$$$$$$$       ",
-//     "                                     $$$$$$$$$$\"      ",
-//     "                                      \"$$$\"\"\"\"",
-//     "                                                             ",
-    // '<span class="color2">Welcome to my interactive web terminal.</span>',
-    // "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>"
-// ]
+smile = [
+    "                          oooo$$$$$$$$$$$$oooo",
+    "                      oo$$$$$$$$$$$$$$$$$$$$$$$$o",
+    "                   oo$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o         o$   $$ o$",
+    "   o $ oo        o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o       $$ $$ $$o$",
+    "oo $ $ \"$      o$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$o       $$$o$$o$",
+    "\"$$$$$$o$     o$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$o    $$$$$$$$",
+    "  $$$$$$$    $$$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$$$$$$$$$$$$$$",
+    "  $$$$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$$$$$$  \"\"\"$$$",
+    "   \"$$$\"\"\"\"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     \"$$$",
+    "    $$$   o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     \"$$$o",
+    "   o$$\"   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$       $$$o",
+    "   $$$    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\" \"$$$$$$ooooo$$$$o",
+    "  o$$$oooo$$$$$  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$   o$$$$$$$$$$$$$$$$$",
+    "  $$$$$$$$\"$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     $$$$\"\"\"\"\"\"\"\"",
+    " \"\"\"\"       $$$$    \"$$$$$$$$$$$$$$$$$$$$$$$$$$$$\"      o$$$",
+    "            \"$$$o     \"\"\"$$$$$$$$$$$$$$$$$$\"$$\"         $$$",
+    "              $$$o          \"$$\"\"$$$$$$\"\"\"\"           o$$$",
+    "               $$$$o                 oo             o$$$\"",
+    "                \"$$$$o      o$$$$$$o\"$$$$o        o$$$$",
+    "                  \"$$$$$oo     \"\"$$$$o$$$$$o   o$$$$\"\"  ",
+    "                     \"\"$$$$$oooo  \"$$$o$$$$$$$$$\"\"\"",
+    "                        \"\"$$$$$$$oo $$$$$$$$$$       ",
+    "                                \"\"\"\"$$$$$$$$$$$        ",
+    "                                    $$$$$$$$$$$$       ",
+    "                                     $$$$$$$$$$\"      ",
+    "                                      \"$$$\"\"\"\"",
+    "                                                             "
+]
 
 banner = [
 

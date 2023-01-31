@@ -84,6 +84,7 @@ p {
     height: 50px;
     color: #73ABAD;
   }
+
 #liner {
     line-height: 1.3em;
     margin-top: -2px;
@@ -110,30 +111,37 @@ p {
 .index {
     color: #DCDCCC;
   }
-  .color2 {
-    color: #B89076;
-  }
-  .command {
-    color: #73ABAD;
-    text-shadow: 0 0 5px #73ABAD; 
-  }
-  .error {
-    color: #B89076;
-  }
-  .white {
-    color: #fff;
-  }
-  .inherit,
-  a {
-    color: #9C8394;
-  }
-  a {
-    text-decoration: inherit;
-  }
-  a:hover {
-    background: #73ABAD;
-    color: #211830;
-  }
-  a:focus {
-    outline: 0;
-  }
+.color2 {
+  color: #B89076;
+}
+.command {
+  color: #73ABAD;
+  text-shadow: 0 0 5px #73ABAD; 
+}
+.intro {
+  color:#a5e47b;
+  text-shadow: 0 0 5px #66ff00;
+}
+.error {
+  color: #B89076;
+}
+.skill{
+  color: #e7dbd3;
+}
+.white {
+  color: #fff;
+}
+.inherit,
+a {
+  color: #9C8394;
+}
+a {
+  text-decoration: inherit;
+}
+a:hover {
+  background: #73ABAD;
+  color: #211830;
+}
+a:focus {
+  outline: 0;
+}

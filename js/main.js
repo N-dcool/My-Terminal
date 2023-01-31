@@ -127,6 +127,12 @@ function commander(cmd){
         case "banner":
             loopLines(banner, "", 80);
             break;
+        case "smile":
+            loopLines(smile, "", 80);
+            break;
+        case "skills":
+            loopLines(skills, "", 80);
+            break;        
         // socials
         case "youtube":
             addLine("Opening YouTube...", "color2", 80);
