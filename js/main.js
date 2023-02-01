@@ -21,7 +21,7 @@ console.log(
     "color: #04ff00; font-weight: bold; font-size: 24px;"
 );
 console.log(
-    "%cPassword: '" + "naresh123" + "' - I wonder what it does",
+    "%cPassword: '" + password + "' - I wonder what it does",
     "colo: grey"            
 )
 
@@ -139,7 +139,7 @@ function commander(cmd){
             newTab(youtube);
             break;
         case "linkedin":
-            addLine("Opening Instagram...", "color2", 0);
+            addLine("Opening LinkedIn...", "color2", 0);
             newTab(linkedIn);
             break;
         case "github":
