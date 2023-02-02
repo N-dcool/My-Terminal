@@ -92,7 +92,7 @@ function commander(cmd){
             break;  
         case "video":
             addLine("Opening YouTube... ", "color2", 80);
-            newTab("https://youtu.be/p3SPgIFBYB0?t=1");
+            newTab("https://www.youtube.com/watch?v=yeBDGXTcdCs");
             break;
         case "sudo":
             addLine("Oh no, you're not admin...","color2", 80);
