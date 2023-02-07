@@ -1,7 +1,7 @@
 # My-Terminal
 A minimalistic portfolio website designed to showcase  my projects and skills in a sleek, terminal-inspired interface. 
 
-- [Live website](https://nareshchoudhary02.github.io/My-Terminal/)
+- [Live website](https://n-dcool.github.io/My-Terminal/)
 
 <a href="https://github.com/Nareshchoudhary02"><img align="center" width="100%" src="https://cdn.discordapp.com/attachments/1068476229486903356/1070068055415214130/MyTerminal.png" target="_blank" alt="google_keeper" border="0"></a>
 
